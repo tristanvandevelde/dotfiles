@@ -6,6 +6,10 @@ brew update
 brew upgrade
 brew cleanup
 
+# Terminal
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 
 
 # Install and setup git
@@ -26,17 +30,20 @@ pyenv install --list
 # install desired version by: pyenv install version
 # set to global for global version by: pyenv global version
 # then rehash: pyenv rehash
+Brew cask install pycharm
+
 
 # install pip
 curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
 
+# onivim2 not yet available on brew
 
 # System utilities
 # enable repeating keys
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 # setup screenshot path
-mkdir -p Pictures/screenshots/
-defaults write com.apple.screencapture location Pictures/screenshots/ && killall SystemUIServer
+mkdir -p /Users/tristanvandevelde/Pictures
+defaults write com.apple.screencapture location /Users/tristanvandevelde/Pictures/screenshots && killall SystemUIServer
 
 
 # Install desktop utilities
