@@ -9,6 +9,9 @@ brew cleanup
 # Terminal
 brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# theme
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 
 
 
@@ -19,7 +22,8 @@ which git
 git config --global user.name "Tristan Vandevelde"
 git config --global user.email "tristan@tristanvandevelde.io"
 
-
+# Install virtualbox
+brew cask install virtualbox
 
 # Install and setup Python and Conda
 brew install python
@@ -65,3 +69,6 @@ brew cask install microsoft-word
 brew cask install microsoft-teams
 brew cask install microsoft-excel
 brew cask install onedrive
+
+brew cask install transmission
+brew cask install vlc
