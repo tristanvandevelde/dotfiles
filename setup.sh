@@ -63,7 +63,8 @@ brew cask install amethyst
 brew cask install hammerspoon
 # 
 
-
+# Browser
+brew cask install chrome
 
 # Spotify
 brew cask install spotify
@@ -76,3 +77,11 @@ brew cask install onedrive
 
 brew cask install transmission
 brew cask install vlc
+
+
+# Tor
+brew install tor
+brew cask install tor-browser
+
+# Calibre (ebooks)
+brew cask install calibre
