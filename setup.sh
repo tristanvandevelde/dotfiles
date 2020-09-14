@@ -64,7 +64,7 @@ brew cask install hammerspoon
 # 
 
 # Browser
-brew cask install chrome
+brew cask install google-chrome
 
 # Spotify
 brew cask install spotify
