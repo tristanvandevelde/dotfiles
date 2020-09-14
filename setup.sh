@@ -85,3 +85,6 @@ brew cask install tor-browser
 
 # Calibre (ebooks)
 brew cask install calibre
+
+# Skype
+brew cask install skype
