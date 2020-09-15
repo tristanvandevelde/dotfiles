@@ -88,3 +88,7 @@ brew cask install calibre
 
 # Skype
 brew cask install skype
+
+# Anaconda
+brew cask install miniconda
+conda init "$(basename "${SHELL}")"
