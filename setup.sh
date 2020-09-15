@@ -92,3 +92,4 @@ brew cask install skype
 # Anaconda
 brew cask install miniconda
 conda init "$(basename "${SHELL}")"
+conda install -c conda-forge notebook
