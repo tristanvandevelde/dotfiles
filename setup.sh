@@ -26,6 +26,9 @@ which git
 git config --global user.name "Tristan Vandevelde"
 git config --global user.email "tristan@tristanvandevelde.io"
 
+# Install Neovim
+brew install nvim
+
 # Install virtualbox
 brew cask install virtualbox
 
