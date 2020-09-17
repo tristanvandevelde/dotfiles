@@ -18,6 +18,9 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 brew install nvim
 # tmux
 brew install tmux
+# base 16
+git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
+
 
 ################
 #### SYSTEM ####
@@ -51,6 +54,7 @@ brew cask install calibre
 brew cask install skype
 brew cask install virtualbox
 brew cask install dropbox
+brew cask install iterm2
 
 
 ## TOSORT
