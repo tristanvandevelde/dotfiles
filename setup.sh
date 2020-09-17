@@ -16,6 +16,8 @@ git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/theme
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
 # neovim
 brew install nvim
+# tmux
+brew install tmux
 
 ################
 #### SYSTEM ####
@@ -48,6 +50,7 @@ brew cask install obs-virtualcam
 brew cask install calibre
 brew cask install skype
 brew cask install virtualbox
+brew cask install dropbox
 
 
 ## TOSORT
