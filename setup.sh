@@ -44,6 +44,7 @@ brew cask install onedrive
 brew cask install transmission
 brew cask install vlc
 brew cask install obs
+brew cask install obs-virtualcam
 brew cask install calibre
 brew cask install skype
 brew cask install virtualbox
