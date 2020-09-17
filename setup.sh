@@ -28,6 +28,8 @@ git config --global user.email "tristan@tristanvandevelde.io"
 
 # Install Neovim
 brew install nvim
+# config in ~/.config/nvim/init.vim
+
 
 # Install virtualbox
 brew cask install virtualbox
