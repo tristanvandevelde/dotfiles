@@ -43,7 +43,6 @@ pyenv install --list
 # install desired version by: pyenv install version
 # set to global for global version by: pyenv global version
 # then rehash: pyenv rehash
-Brew cask install pycharm
 
 
 # install pip
@@ -60,39 +59,26 @@ defaults write com.apple.screencapture location /Users/tristanvandevelde/Picture
 
 
 # Install desktop utilities
-# f.lux
 brew cask install flux
-# amethyst
 brew cask install amethyst
-# hammerspoon
 brew cask install hammerspoon
-# 
 
-# Browser
+
+# Office Software
 brew cask install google-chrome
-
-# Spotify
+brew install tor
+brew cask install tor-browser
 brew cask install spotify
-
-# Microsoft
 brew cask install microsoft-word
 brew cask install microsoft-teams
 brew cask install microsoft-excel
 brew cask install onedrive
-
 brew cask install transmission
 brew cask install vlc
-
-
-# Tor
-brew install tor
-brew cask install tor-browser
-
-# Calibre (ebooks)
+brew cask install obs
 brew cask install calibre
-
-# Skype
 brew cask install skype
+
 
 # Anaconda
 brew cask install miniconda
