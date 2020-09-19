@@ -1,7 +1,8 @@
+" BASIC SETUP
+set nocompatible
 set number
 set autoindent
-set tabstop=4
-set softtabstop=0 noexpandtab
-set shiftwidth=4
-syntax on
+syntax enable
+filetype plugin on
+
 set path+=**
