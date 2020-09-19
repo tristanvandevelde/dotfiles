@@ -12,8 +12,8 @@ git config --global user.email "tristan@tristanvandevelde.io"
 # zsh
 brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-brew install romkatv/powerlevel10k/powerlevel10k
-echo 'source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
+brew tap homebrew/cask-fonts
+brew cask install font-fira-code
 
 # CLI tools
 brew install nvim
