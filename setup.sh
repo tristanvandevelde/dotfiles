@@ -54,6 +54,8 @@ brew cask install skype
 brew cask install virtualbox
 brew cask install dropbox
 brew cask install iterm2
+brew install jupyterlab
+brew cask install docker
 
 
 ## TOSORT
