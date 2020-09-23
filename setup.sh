@@ -9,6 +9,8 @@ brew doctor
 brew install git
 git config --global user.name "Tristan Vandevelde"
 git config --global user.email "tristan@tristanvandevelde.io"
+brew install git-lfs
+git lfs install
 # zsh
 brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
