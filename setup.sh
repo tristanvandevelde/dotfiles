@@ -58,7 +58,8 @@ brew cask install dropbox
 brew cask install iterm2
 brew install jupyterlab
 brew cask install docker
-
+brew cask install transmit
+brew cask install tower
 
 ## TOSORT
 
