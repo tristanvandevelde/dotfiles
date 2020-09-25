@@ -59,6 +59,7 @@ brew install jupyterlab
 brew cask install docker
 brew cask install transmit
 brew cask install tower
+brew cask install macvim
 
 ## TOSORT
 
