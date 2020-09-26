@@ -21,6 +21,7 @@ brew cask install font-fira-code
 brew install nvim
 brew install tmux
 brew install tree
+brew install neofetch
 
 
 ################
