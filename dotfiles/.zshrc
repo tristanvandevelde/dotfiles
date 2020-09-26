@@ -1,1 +1,5 @@
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="spaceship"
+plugins=(git osx)
+source $ZSH/oh-my-zsh.sh
+# alias jupyter notebooks
+neofetch
