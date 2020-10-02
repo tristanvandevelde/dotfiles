@@ -62,6 +62,7 @@ brew cask install transmit
 brew cask install tower
 brew cask install macvim
 brew cask install intellij-idea
+brew install ghc
 
 ## TOSORT
 
