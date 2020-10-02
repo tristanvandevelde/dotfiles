@@ -2,7 +2,12 @@
 set nocompatible
 set number
 set autoindent
-syntax enable
 filetype plugin on
 
+" SET COLORS
+syntax enable
+colorscheme monokai
+
+" FILE FINDER (:find)
 set path+=**
+set wildmenu
