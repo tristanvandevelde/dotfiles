@@ -59,7 +59,9 @@ brew cask install docker
 brew cask install transmit
 brew cask install tower
 brew install ghc
-brew cask install emacs
+brew tap d12frosted/emacs-plus
+brew install emacs-plus
+ln -s /usr/local/opt/emacs-plus@27/Emacs.app /Applications
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 brew cask install clion
 brew cask install pycharm
