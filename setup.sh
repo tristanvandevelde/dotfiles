@@ -49,9 +49,6 @@ brew cask install microsoft-teams
 brew cask install microsoft-excel
 brew cask install onedrive
 brew cask install transmission
-brew cask install vlc
-brew cask install obs
-brew cask install obs-virtualcam
 brew cask install calibre
 brew cask install skype
 brew cask install virtualbox
@@ -60,9 +57,11 @@ brew install jupyterlab
 brew cask install docker
 brew cask install transmit
 brew cask install tower
-brew cask install macvim
-brew cask install intellij-idea
 brew install ghc
+brew cask install emacs
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+brew cask install clion
+brew cask install pycharm
 
 ## TOSORT
 
