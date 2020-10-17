@@ -15,7 +15,8 @@ git lfs install
 brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 brew tap homebrew/cask-fonts
-brew cask install font-fira-code
+brew cask install font-fira-code font-source-code-pro
+
 
 # CLI tools
 brew install nvim
@@ -77,7 +78,7 @@ pyenv install --list
 # install pip
 curl https://bootstrap.pypa.io/get-pip.py > get-pip.py
 
-# Anaconda
-brew cask install miniconda
-conda init "$(basename "${SHELL}")"
-conda install -c conda-forge notebook
+# Anaconda -> use docker conda in future
+#brew cask install miniconda
+#conda init "$(basename "${SHELL}")"
+#conda install -c conda-forge notebook
