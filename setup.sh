@@ -20,6 +20,8 @@ brew cask install font-fira-code font-source-code-pro
 
 # CLI tools
 brew install nvim
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 brew install tmux
 brew install tree
 brew install neofetch
